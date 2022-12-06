@@ -1,0 +1,28 @@
+.header {
+    display: grid;
+    width: 100%;
+    
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    justify-content: center;
+    background-color: white;
+}
+
+.nav {
+    display: grid;
+    
+    img {
+        max-width: 100%;
+    }
+
+    nav ul li {
+        display: inline-block;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: black;
+        font-size: 1rem;
+        padding: 2em;
+    }
+}
