@@ -21,19 +21,17 @@ export default {
     },
 
     template: `
-    <div class="one-item" @click="loadcardata">
+    <div @click="loadcardata">
                 <div class="container">
                     <!-- card -->
                     <div class="card">
                             <!-- top pic -->
-                            <div><img :src=piece.image :alt=piece.work_desc></div>
+                            <div><img :src='"./images/" + piece.image' :alt=piece.car_complete></div>
                             <!-- title -->
-                            <a>piece.car_complete</a>
+                            <a class="miniText">{{piece.car_complete}} </a>
                             <!-- why -->
-                            <h3 class="cardHide"></h3>
-                            <p class="cardHide"></p>
-                            <!-- desc -->
-                            <p class="cardHide"></p>
+                            <h3 class="miniText"> Starting at $ {{piece.price}}</h3>
+                            <i class="fa-sharp fa-solid fa-caret-down"></i>
                     </div>
                 </div>
         </div>

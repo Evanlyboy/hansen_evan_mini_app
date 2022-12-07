@@ -11,7 +11,7 @@ import LightBox from './components/TheLightbox.js';
         created() {
             // Here is where the stuff is gotten from the php. We'll have to change this from .json to php on the deployment
             // ALWAYS get your remote data here
-            fetch(`./scripts/json.php`)
+            fetch(`./testJson.json`) //switch to db after done styling
                 .then(res => res.json())
                 .then(data => this.carData = data)
             .catch(error => console.error(error));
@@ -34,7 +34,6 @@ import LightBox from './components/TheLightbox.js';
         },
 
         methods: {
-
 
             loadcardata(piece) {
                 // set the lightbox data / render it

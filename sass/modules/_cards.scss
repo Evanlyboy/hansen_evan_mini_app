@@ -1,0 +1,93 @@
+#candH {
+background-size: cover;
+background-position: center;
+}
+
+#sciFi {
+background-size: cover;
+background-position: center;
+}
+
+#jackBlack {
+background-size: cover;
+background-position: center;
+}
+
+.card{
+    // background-color: black;
+    // opacity: 80%;
+    padding: 0em 1em .5em 1em;
+    align-items: center;
+    justify-items: center;
+    height: 100%;
+    border-radius: 1em;
+    transition: .25s;
+}
+
+.card video {
+    object-position: center;
+    object-fit: cover;
+    overflow: hidden;
+    z-index: -1;
+}
+
+// .card:hover{
+//     backdrop-filter: blur(0px);
+// }
+
+.cardHide {
+    display: none;
+}
+
+.cardInfo {
+    display: flex;
+    color: white;
+    filter: drop-shadow(3px 3px 1px black);
+}
+
+.container {
+display: grid;
+grid-template-rows: auto;
+background-color: rgb(215, 215, 215);
+
+width: 100%;
+border-radius: 1em;
+transition: .25s;
+text-align: center;
+vertical-align: middle;
+}
+
+.container:hover {
+    cursor: pointer;
+    background-color: rgb(200, 200, 200);
+}
+
+.container img {
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.container video {
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.cardText {
+    display: flex;
+}
+
+.blur {
+    height: 100%;
+    position: relative;
+    z-index: 9;
+    transition: .25s;
+    backdrop-filter: blur(5px);
+}
+
+// .blur:hover {
+//     backdrop-filter: blur(0px);
+// }
+
+.superBlur {
+    backdrop-filter: blur(30px);
+}
