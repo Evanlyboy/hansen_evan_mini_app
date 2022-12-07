@@ -21,12 +21,12 @@ export default {
     },
 
     template: `
-    <div @click="loadcardata">
+    <div ref="item.car" @click="loadcardata">
                 <div class="container">
                     <!-- card -->
                     <div class="card">
                             <!-- top pic -->
-                            <div><img :src='"./images/" + piece.image' :alt=piece.car_complete></div>
+                            <div class="carPadding"><img :src='"./images/" + piece.image' :alt=piece.car_complete></div>
                             <!-- title -->
                             <a class="miniText">{{piece.car_complete}} </a>
                             <!-- why -->

@@ -1,20 +1,21 @@
 .header {
     display: grid;
     width: 100%;
-    
     position: sticky;
     z-index: 10;
     top: 0;
-    justify-content: center;
+    justify-content: start;
     background-color: white;
+}
+
+.header img {
+    max-height: 60%;
 }
 
 .nav {
     display: grid;
-    
-    img {
-        max-width: 100%;
-    }
+    grid-column: 1 / span 2;
+    grid-template-columns: .5fr 1fr;
 
     nav ul li {
         display: inline-block;
