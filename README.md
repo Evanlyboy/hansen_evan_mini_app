@@ -1,3 +1,5 @@
+<img src="images/web_pic.jpg">
+
 # MINI App
 
 A simple webpage designed to emulate the experience of the MINI Canada auto manufacturer. Loads in car information from a database and displays it in card view with clickable cards.
