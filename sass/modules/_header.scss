@@ -1,0 +1,30 @@
+.header {
+    display: grid;
+    width: 100%;
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    justify-content: start;
+    background-color: white;
+    backdrop-filter: drop-shadow(4px 4px 1em black);
+}
+
+.header img {
+    max-height: 60%;
+}
+
+.nav {
+    display: grid;
+    grid-column: 1 / span 2;
+    grid-template-columns: .5fr 1fr;
+
+    nav ul li {
+        display: inline-block;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: black;
+        font-size: 1rem;
+        padding: 2em;
+    }
+}

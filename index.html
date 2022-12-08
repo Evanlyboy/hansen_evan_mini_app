@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <title>MINI Canada</title>
+</head>
+<body>
+    <header class="header">
+        <div class="center">
+            <div class="nav center">
+                <img src="images/logo.png" alt="logo mini">
+                <nav>
+                    <ul>
+                        <li>Models</li>
+                        <li>Tools</li>
+                        <li>Discover</li>
+                        <li>Shop</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+    <main class="main" id="main">
+
+        <section class="center fluid">
+            <img class="heroImg" src="images/header_img.jpg" alt="" srcset="">
+            <div class="textOnImg two-items">
+                <h3 class="lightBlackBackground miniText largeText white">OUT OF THE SHADOWS, INTO THE SPOTLIGHT.
+                THE NEW MINI COUNTRYMAN SHADOW EDITION.</h3>
+                <h3 class="hidden"></h3>
+                <button class="miniText">Learn More</button>
+            </div>
+        </section>
+
+        <section class="one-item center sectionMargin">
+            <div class="mediumText miniText">
+                Mini difference
+            </div>
+            <div class="bigAssText miniText">
+                Great change
+            </div>
+        </section>
+
+
+        <section class="sectionMargin" id="app">
+
+            <div class="carShow four-items">
+
+                <thecars @loadcardata="loadcardata" v-for="piece in carData" :piece="piece"></thecars>
+
+                <thelightbox
+                @closelb="this.showLB = false" 
+                v-if="showLB" 
+                :item="lbData">
+                </thelightbox>
+
+            </div>
+
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="center">
+            <div class="footerNav center ">
+                <img src="images/logo.png" alt="logo mini">
+                <nav class="">
+                    <ul class="noMargin">
+                        <li>Contact Us</li>
+                        <li>Cookies & Ads</li>
+                        <li>Privacy Policy</li>
+                        <li>Accessibility</li>
+                        <li>Terms of Use</li>
+                        <li>Unsubscribe</li>
+                        <li>BMW Group</li>
+                        <li>Change province (ON)</li>
+                        <li>Francais</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="js/main.js" type="module" defer></script>
+</body>
+</html>

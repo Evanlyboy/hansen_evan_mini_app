@@ -1,0 +1,65 @@
+.lightbox {
+    // display: none;
+    max-width: 100%;
+  
+    z-index: 10;   
+
+    position: sticky;
+    backdrop-filter: drop-shadow(1rem 1rem 1rem black);
+    background-color: rgb(215, 215, 215);
+    border-radius: 2em;
+    top: 0px;
+    border-style: none;
+    padding: 2em;
+}
+
+.fluid {
+  display: grid;
+  grid-column: 1 / span 4;
+  grid-template-columns: 1fr;
+}
+
+.lightboxContainer {
+  display: grid;
+  grid-template-rows: fit-content(50%);
+  row-gap: 0;
+}
+
+.lightboxContainer video, img {
+  max-width: 100%;
+}
+
+.lightboxContainer h3 {
+  display: grid;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+.lightbox_close {
+    cursor: pointer;
+    justify-self: end;
+  }
+  
+  .lightbox_close:hover { 
+    opacity: 0.7; 
+  }
+  
+  .lightbox section {
+    padding-top: 50px;
+    height: fit-content;
+    margin-right: 8%;
+  }
+  
+  .lb_heading { 
+    text-align: left;
+    color: white;
+    font-size: 2em;
+  }
+  
+  .lb_text { 
+    line-height: 1.6;
+    padding-top: 2em;
+    font-size: 1em;
+    text-align: left;
+    color: white;
+  }
