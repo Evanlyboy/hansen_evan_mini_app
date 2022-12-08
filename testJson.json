@@ -1,6 +1,6 @@
-{"Cooper 3": {
+{"cooper_3": {
     "ID": "1",
-    "car": "Cooper 3",
+    "car": "cooper_3",
     "car_complete": "2023 Mini Cooper 3 Door",
     "price": "31 090",
     "finance_rate": "6.25",
@@ -8,9 +8,9 @@
     "lease_rate": "5.99",
     "lease_pay": "730",
     "image": "mini3.png"
-},"Cooper 5": {
+},"cooper_5": {
     "ID": "2",
-    "car": "Cooper 5",
+    "car": "cooper_5",
     "car_complete": "2023 Mini Cooper 5 Door",
     "price": "32 190",
     "finance_rate": "6.25",
@@ -18,9 +18,9 @@
     "lease_rate": "5.99",
     "lease_pay": "756",
     "image": "mini5.png"
-},"Cooper Convertible": {
+},"cooper_convertible": {
     "ID": "3",
-    "car": "Cooper Convertible",
+    "car": "cooper_convertible",
     "car_complete": "2023 Mini Cooper Convertible",
     "price": "37 990",
     "finance_rate": "6.25",
@@ -28,9 +28,9 @@
     "lease_rate": "5.99",
     "lease_pay": "892",
     "image": "miniConvert.png"
-},"All-Electric Cooper 3 Door": {
+},"all_electric_cooper_3_door": {
     "ID": "4",
-    "car": "All-Electric Cooper 3 Door",
+    "car": "all_electric_cooper_3_door",
     "car_complete": "2023 Mini Cooper All-Electric 3 Door",
     "price": "45 590",
     "finance_rate": "6.25",

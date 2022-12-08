@@ -43,6 +43,7 @@ import LightBox from './components/TheLightbox.js';
                 // show the lightbox
                 this.showLB = true;
             },
+
             ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
             // All of the cards code is here

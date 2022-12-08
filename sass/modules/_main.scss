@@ -5,4 +5,24 @@
 
 .carPadding{
     padding: 2em;
+
+    button {
+        background-color: rgb(190, 190, 190);
+    }
+}
+
+.heroImg {
+    width: 100%;
+}
+
+.textOnImg {
+    position: absolute;
+    float: left;
+    margin: 2em;
+}
+
+.lightBlackBackground {
+    background-color: rgba(0,0,0,.5);
+    padding: 1em;
+    border-radius: .5em;
 }

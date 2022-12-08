@@ -21,7 +21,7 @@ export default {
     },
 
     template: `
-    <div ref="item.car" @click="loadcardata">
+    <div :id=piece.car @click="loadcardata">
                 <div class="container">
                     <!-- card -->
                     <div class="card">
@@ -30,7 +30,7 @@ export default {
                             <!-- title -->
                             <a class="miniText">{{piece.car_complete}} </a>
                             <!-- why -->
-                            <h3 class="miniText"> Starting at $ {{piece.price}}</h3>
+                            <h3 class="miniText"> Starting at $\{{piece.price}}</h3>
                             <i class="fa-sharp fa-solid fa-caret-down"></i>
                     </div>
                 </div>

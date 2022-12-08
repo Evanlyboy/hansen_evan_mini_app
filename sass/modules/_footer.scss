@@ -1,0 +1,31 @@
+.footer {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    max-width: 1800px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 35px 40px;
+}
+
+.footerNav {
+    display: grid;
+    grid-column: 1 / span 2;
+    grid-template-columns: .1fr 1fr;
+
+    nav ul li {
+        display: inline-block;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: black;
+        font-size: 1rem;
+        padding: 1em;
+        margin: 0;
+    }
+
+    img {
+        max-width: 100%;
+    }
+}

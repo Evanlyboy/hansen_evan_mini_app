@@ -4,3 +4,21 @@
     justify-content: center;
     justify-items: center;
 }
+
+.sectionMargin {
+    margin: 3em;
+}
+
+button {
+    padding: 2em;
+    color: white;
+    border-style: none;
+    border-radius: 1em;
+    transition: .25s;
+    max-width: 25%;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(200, 200, 200);
+}

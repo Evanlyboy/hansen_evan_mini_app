@@ -26,31 +26,32 @@ export default {
 
                 <div class="carPadding">
                     <div><img :src='"./images/" + item.image' :alt=item.car_complete></div>
+                    <button class="miniText center">Learn More</button>
                 </div>
 
                 <div class="two-items"> 
                 
                     <div class="infoBox centerText center miniText noMargin">
                     <p class="smallText">Finance at</p>
-                    <p class="smallText">{{ item.finance_rate }}% </p>
+                    <p class="mediumText">{{ item.finance_rate }}% </p>
                     <p class="smallText">per month</p>
                     </div>
 
                     <div class="infoBox centerText center miniText noMargin">
                     <p class="smallText">Only</p>
-                    <p class="smallText">$\{{ item.finance_pay }}</p>
+                    <p class="mediumText">$\{{ item.finance_pay }}</p>
                     <p class="smallText">per month for 84 months</p>
                     </div>
 
                     <div class="infoBox centerText center miniText noMargin">
                     <p class="smallText">Lease at</p>
-                    <p class="smallText">{{ item.lease_rate }}% </p>
+                    <p class="mediumText">{{ item.lease_rate }}% </p>
                     <p class="smallText">per month</p>
                     </div>
 
                     <div class="infoBox centerText center miniText noMargin">
                     <p class="smallText">Only </p>
-                    <p class="smallText">$\{{ item.lease_pay }}</p>
+                    <p class="mediumText">$\{{ item.lease_pay }}</p>
                     <p class="smallText">per month for 48 months</p>
                     </div>
 
